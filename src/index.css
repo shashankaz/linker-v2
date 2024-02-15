@@ -1,13 +1,122 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html {
+  background-color: #F0EDCF;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#logo {
+  border-radius: 50%;
+  margin-top: 55px;
+}
+
+#container h1 {
+  color: #000000;
+  font-size: 1.4rem;
+  font-weight: 650;
+  margin: 20px;
+}
+
+#social-bar {
+  display: flex;
+  gap: 15px;
+  margin: 5px 0 20px;
+  font-size: 1.8rem;
+}
+
+#social-bar a {
+  color: #000000;
+}
+
+#box {
+  text-align: center;
+  width: 650px;
+  border: 2px solid #000000;
+  border-radius: 30px;
+  color: #000000;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+#box a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+#box a h2 {
+  font-weight: 500;
+}
+
+#box:hover {
+  background-color: #000000;
+  color: #F0EDCF;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#box:hover h2 {
+  color: #F0EDCF;
+}
+
+@media (max-width: 700px) {
+  #box {
+    width: 600px;
+    transition: 0.1s;
+  }
+}
+
+@media (max-width: 650px) {
+  #box {
+    width: 550px;
+    transition: 0.1s;
+  }
+}
+
+@media (max-width: 600px) {
+  #box {
+    width: 500px;
+    transition: 0.1s;
+  }
+}
+
+@media (max-width: 550px) {
+  #box {
+    width: 450px;
+    transition: 0.1s;
+  }
+}
+
+@media (max-width: 500px) {
+  #box {
+    width: 400px;
+    transition: 0.1s;
+  }
+}
+
+@media (max-width: 450px) {
+  #box {
+    width: 350px;
+    transition: 0.1s;
+  }
+}
+
+@media (max-width: 400px) {
+  #box {
+    width: 300px;
+    transition: 0.1s;
+  }
+}
+
+@media (max-width: 350px) {
+  #box {
+    width: 250px;
+    transition: 0.1s;
+  }
 }
