@@ -21,7 +21,7 @@ const App = () => {
           </a>
         </div>
         <LinkComponent title="Github" url="https://github.com/shashankaz" />
-        <LinkComponent title="Projects" url="https://theplatform.vercel.app/" />
+        <LinkComponent title="Projects" url="https://projects.shashankk.tech/" />
         <LinkComponent
           title="CodeChef"
           url="https://www.codechef.com/users/o_r_e_o"
